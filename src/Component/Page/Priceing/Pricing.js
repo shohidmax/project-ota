@@ -4,9 +4,9 @@ import './Priceing.css';
 const Pricing = () => {
     return (
         <div className='ggt2' >
-           <div  className='body2 h-auto mx-auto ' >
+           <div  className='body2 h-max mx-auto ' >
             
-           <div   class="bg-white mkt-3dSlider py-6 body2 p-6 rounded-lg shadow-2xl h-fit ggt2"   >
+           <div   class="bg-white mkt-3dSlider py-6 body2 p-6 rounded-lg shadow-2xl h-max ggt2"   >
               <h2 className='text-xl ' style={{'color':'#005f57'}}>Prices</h2>
 
 

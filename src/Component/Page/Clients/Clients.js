@@ -7,11 +7,11 @@ const Clients = () => {
   
     return (
         <div className='bg-gray-400'>
-            <h1 className='text-xl' style={{'color':'#005f57'}}>textimnial</h1>
+            <h1 className='text-2xl   ' style={{'color':'#005f57'}}>Testimonial</h1>
             <div>
-                <h1 className='text-5xl my-6' >wats our client says</h1>
+                <h1 className='text-5xl my-6 text-white' >What’s Our Clients Says</h1>
             </div>
-            <div className='flex  justify-around hover:bg-red-600 h-96'>
+            <div className='flex  justify-around   h-96'>
                 <div className=''>
                     <div class="card w-96  bg-base-100   shadow-2xl mt-12  image-full">
                         <figure> </figure>
@@ -27,10 +27,10 @@ const Clients = () => {
                                     <p className='text-xs'>CEO , Nextgen</p>
                                     <div class="rating rating-xs">
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                     </div>
                             </div>
                             <div>
@@ -60,10 +60,10 @@ const Clients = () => {
                                     <p className='text-xs'>CEO , Nextgen</p>
                                     <div class="rating rating-xs">
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400"  />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                     </div>
                             </div>
                             <div>
@@ -101,9 +101,9 @@ const Clients = () => {
                                     <p className='text-xs'>CEO , Nextgen</p>
                                     <div class="rating rating-xs">
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400"   />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                     </div>
                             </div>

@@ -5,7 +5,7 @@ const About = () => {
         <div className=' ggt bgcolor  ' >
              <div className='bg-no-repeat bg-center   scale-75'    >
                 <h1 className='text-2xl   ' style={{'color':'#005f57'}}> About</h1>
-             <div class="  flex w-full  h-auto h-fit   ">
+             <div class="  flex   w-full  h-max   ">
                 <div class="grid  flex-grow card rounded-box place-items-center">
                     <h1 className='text-6xl text-bold text-white aaa'>What We Do</h1>
                     <p className='text-xs text-bold w-8/12 my-6 text-white'>Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private</p>
