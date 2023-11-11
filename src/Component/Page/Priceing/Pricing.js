@@ -18,7 +18,7 @@ const Pricing = () => {
               <input class="card-slider qqqqq" type="radio" name="slider-q" id="s1"/>
               <input class="card-slider qqqqq" type="radio" name="slider-q" id="s2"/>
               <input class="card-slider qqqqq" type="radio" name="slider-q" id="s3" checked/> 
-              <label for="s1" id="slide1" class="card-slider rainbow rounded-md">
+              <label for="s1" id="slide1" class="card-slider borderttt rounded-md">
               <div className='rounded-md'>
                   <div>
                       <h1 className='text-black text-4xl text-white my-8'>OTA White Label</h1>
@@ -27,10 +27,10 @@ const Pricing = () => {
                     <p className='text-white text-sm w-10/12 flex mx-auto '>Everyone has the right to freedom of thought, conscience and religion;m to change </p>
                   </div>
                   <div>
-                    <h1 className='text-white text-5xl text-bold'> BDT 30,0000/-</h1>
+                    <h1 className='text-white text-5xl text-bold'> BDT 20,000/-</h1>
                   </div>
                   <div className='my-12'>
-                    <button className='btn btn-lg bg-blue-400'>book now</button>
+                    <button className='btn btn-lg bg-blue-400 btn-primary'>book now</button>
                   </div>
                   <div className='flex flex-col element-center ms-12'>
                       <div className='flex m-1 mt-12'>
@@ -55,7 +55,7 @@ const Pricing = () => {
                   </div>
                 </div>
               </label>
-              <label for="s2" id="slide2" class="card-slider rainbow">
+              <label for="s2" id="slide2" class="card-slider borderttt">
               <div>
                   <div>
                       <h1 className='text-black text-4xl text-white my-8'>OTA White Label</h1>
@@ -64,10 +64,10 @@ const Pricing = () => {
                     <p className='text-white text-sm w-10/12 flex mx-auto '>Everyone has the right to freedom of thought, conscience and religion;m to change </p>
                   </div>
                   <div>
-                    <h1 className='text-white text-5xl text-bold'> BDT 30,0000/-</h1>
+                    <h1 className='text-white text-5xl text-bold'> BDT 20,0000/-</h1>
                   </div>
                   <div className='my-12'>
-                    <button className='btn btn-lg bg-blue-400'>book now</button>
+                    <button className='btn btn-lg bg-blue-400 btn-primary'>book now</button>
                   </div>
                   <div className='flex flex-col element-center ms-12'>
                       <div className='flex m-1 mt-12'>
@@ -92,7 +92,7 @@ const Pricing = () => {
                   </div>
                 </div>
               </label>
-              <label for="s3" id="slide3" class="card-slider rainbow">
+              <label for="s3" id="slide3" class="card-slider borderttt">
                 <div>
                   <div>
                       <h1 className='text-black text-4xl text-white my-8'>Full OTA Poral</h1>
@@ -101,10 +101,10 @@ const Pricing = () => {
                     <p className='text-white text-sm w-10/12 flex mx-auto '>Everyone has the right to freedom of thought, conscience and religion;m to change </p>
                   </div>
                   <div>
-                    <h1 className='text-white text-5xl text-bold'> BDT 30,0000/-</h1>
+                    <h1 className='text-white text-5xl text-bold'> BDT 30,000/-</h1>
                   </div>
                   <div className='my-12'>
-                    <button className='btn btn-lg bg-blue-400'>book now</button>
+                    <button className='btn btn-lg bg-blue-400 btn-primary'>book now</button>
                   </div>
                   <div className='flex flex-col element-center ms-12'>
                       <div className='flex m-1 mt-12'>

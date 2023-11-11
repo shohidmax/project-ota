@@ -98,6 +98,11 @@
   }
   
   @media only screen and (max-width: 600px) {
+    .banglof{
+      display: flex;
+      flex-direction: column;
+      margin: 5px;
+    }
     .body2 { 
       background: #1f1212f1;
       user-select: none; 

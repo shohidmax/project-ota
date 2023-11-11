@@ -5,10 +5,37 @@
 
 
 
-.ttt{
-  
+.borderttt {
+    border-image: linear-gradient(#00E7D9, #330076c4, #fb00ffe9) 30;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
 }
-
+.reactjs{
+	background: -webkit-linear-gradient(0deg, #FFFFFF, #032AF9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.pythonjs{
+	background: -webkit-linear-gradient(0deg, #2876B6, #FCD025);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nodejs{
+	background: -webkit-linear-gradient(0deg, #FFFFFF, #6CC04A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sqljs{
+	background: -webkit-linear-gradient(0deg, #FFFFFF, #032AF9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.awsjs{
+	background: -webkit-linear-gradient(0deg, #FFFFFF, #032AF9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 /* body {
   margin: 0;
