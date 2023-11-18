@@ -9,14 +9,14 @@ import Technology from '../Page/Technology/Technology';
 import Outlet from '../Footer/Outlet';
 import Clients from '../Page/Clients/Clients';
 import './Home.css';
+import SlideCard from '../Page/Priceing/SlideCard.js/SlideCard';
 const Home = () => {
     return (
         <div>
             <Header> </Header>
-            <About></About>
-            <Service></Service>
+            <About></About>  
             <Pricing></Pricing>
-            {/* <Service></Service> */}
+            <Service></Service>
             <Clients></Clients>
             <Technology></Technology>
             <Partners></Partners> 

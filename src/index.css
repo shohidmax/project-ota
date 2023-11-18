@@ -4,12 +4,15 @@
 @tailwind utilities;
 
 
-
+.bgsub{
+  background-color: #d9d9d90b;
+}
 .borderttt {
     border-image: linear-gradient(#00E7D9, #330076c4, #fb00ffe9) 30;
     border-width: 2px;
     border-style: solid;
     padding: 10px;
+    width: 185px;
 }
 .reactjs{
 	background: -webkit-linear-gradient(0deg, #FFFFFF, #032AF9);
@@ -52,7 +55,7 @@ code {
 } */
  
 .ght{
-  background: url("https://i.ibb.co/gSsbnCc/layer9.png") no-repeat right top;
+  background: url("https://i.ibb.co/gSsbnCc/layer9.png") no-repeat right top ;
 
 }
 .ggt{
@@ -67,6 +70,9 @@ code {
 }
 .bgcolor{
   background-color: rgba(3, 3, 3, 0.822);
+}
+.bgcolorpartner{
+  background-color: rgb(236, 236, 236);
 }
 
 /* *, *::before, *::after {
@@ -154,4 +160,62 @@ code {
   0%     { --angle: 0deg; }
   100%   { --angle: 360deg;
   }
+}
+
+
+
+
+
+/* glowinf css  */
+/* Add a border to the button */
+.myButton {
+  border: 2px solid #333; /* Initial border color */
+  padding: 10px 20px; /* Optional: Add padding for better appearance */
+  animation: glow 5s infinite alternate; /* Apply the glow animation */
+}
+
+/* Define the glow animation */
+@keyframes glow {
+  0% {
+      border-color: #ff000037; /* Red */
+  }
+  20% {
+      border-color: #ff990041; /* Orange */
+  }
+  40% {
+      border-color: #ffff002b; /* Yellow */
+  }
+  60% {
+      border-color: #33cc3325; /* Green */
+  }
+  80% {
+      border-color: #3366ff19; /* Blue */
+  }
+  100% {
+      border-color: rgba(0, 204, 255, 0.335); /* Purple */
+  }
+}
+
+
+
+
+
+
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
 }

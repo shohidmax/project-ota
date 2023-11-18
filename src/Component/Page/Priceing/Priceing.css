@@ -1,10 +1,9 @@
  
   
   .body2 { 
-    background: #1f1212f1;
+    /* background: #1f1212f1; */
     user-select: none; 
-    background-repeat: round;
-    height: auto;
+    background-repeat: no-repeat; 
   }
   
 .qqqqq {
@@ -15,7 +14,7 @@
   }
   
   #slider-q {
-    height: 45vw;
+    height: 55vw;
     position: relative;
     perspective: 1000px;
     transform-style: preserve-3d;
@@ -29,7 +28,7 @@
     left: 0; right: 0;
     cursor: pointer;
     transition: transform 0.4s ease;
-    background-color: #0e0d0dd3;
+    background-color: #0e0d0d32;
     background-image: linear-gradient(#5d6161e0, rgba(56, 54, 59, 0.624), #494449c5,#494343c9);
     border: 2px solid  color-mix(in srgb, color percentage, color percentage);
 
@@ -87,26 +86,41 @@
   
   .card-slider {
     background: #fff;
-    width: 450px;
-    height: fit-content;
+    width: 406px;
+    height: 600px
   }
   
   .ggt2{
     background: url('https://i.ibb.co/jrTc7fM/layer2.png') no-repeat ;
     background-size: contain;
-    background-position: bottom;
+    background-position: bottom; 
+  }
+  .gg4{
+    height: 750px;
   }
   
-  @media only screen and (max-width: 600px) {
+
+/* --------------------------- responsive design --------------- */
+
+
+
+
+
+  @media only screen and (max-device-width: 425px) {
+    
+      .ggt2 {
+        background: url(https://i.ibb.co/jrTc7fM/layer2.png) no-repeat;
+        background-size: contain;
+        background-position: bottom; 
+      }
     .banglof{
       display: flex;
       flex-direction: column;
       margin: 5px;
     }
-    .body2 { 
-      background: #1f1212f1;
+    .body2 {  
       user-select: none; 
-      background-repeat: round;
+      background-repeat: no-repeat;
       height: auto;
     }
     
@@ -115,7 +129,7 @@
     }
     
     #slider-q {
-      height: 45vw;
+      height: 55vw;
       position: relative;
       perspective: 1000px;
       transform-style: preserve-3d;
@@ -129,8 +143,8 @@
       left: 0; right: 0;
       cursor: pointer;
       transition: transform 0.4s ease;
-      background-color: #0e0d0dd3;
-      background-image: linear-gradient(#5d6161e0, rgba(56, 54, 59, 0.624), #494449c5,#494343c9);
+      /* background-color: #0e0d0dd3; */
+      /* background-image: linear-gradient(#5d6161e0, rgba(56, 54, 59, 0.624), #494449c5,#494343c9); */
       border: 2px solid  color-mix(in srgb, color percentage, color percentage);
   
     }
@@ -146,7 +160,7 @@
     #s3:checked ~ #slide2, #s4:checked ~ #slide3,
     #s5:checked ~ #slide4 {
       box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0,0,0,.2);
-      transform: translate3d(-45%,0,-100px);
+      transform: translate3d(-30%,0,-125px);
     }
     
     #s1:checked ~ #slide1, #s2:checked ~ #slide2,
@@ -170,29 +184,28 @@
       transform: translate3d(30%,0,-200px);
     }
     
-    .mkt-3dSlider { background: #8c96a044; padding: 52px 0 }
+    .mkt-3dSlider {  padding: 52px 0 } 
     
     .mkt-3dSlider-title {
-      color: #fff;
+      /* color: #ffffff00; */
       margin: 0 auto;
       text-align: center;
-        margin-bottom: 24px;
+        margin-bottom: 4px;
     }
     
     .mkt-3dSlider-description {
-      color: #fff;
+      /* color: #fff; */
       text-align: center;
-      margin-bottom: 24px
+      margin-bottom: 4px
     }
     
     .card-slider {
-      background: #fff;
+      /* background: #fff; */
       width: 250px;
-      height: 450px
+      height: fit-content;
     }
     .aaa{
-      font-size: 10px;
-      display: none;
+      font-size: 10px; 
     }
 
   }

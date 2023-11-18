@@ -3,7 +3,7 @@ import Outlet from './Outlet';
 
 const Footer = () => {
     return (
-        <div className='ght bg-cover bg-fixed  ' style={{'background-size':'contain'}}>
+        <div className='ght bg-cover bg-fixed ' style={{'background-size':'contain'}}>
             <div className='  qqq ' style={{'background-image':`liner-greadient(to right, red , green , blue)`}}>
             
             <div >
@@ -14,7 +14,7 @@ const Footer = () => {
      
                 
                 <nav> 
-                <img src="https://i.ibb.co/ZWvf4gN/Frame-5-1-1.png" width='120' className='p-2' alt="" />
+                    <img src="https://i.ibb.co/ZWvf4gN/Frame-5-1-1.png" width='120' className='p-2' alt="" />
                     <a class="link link-hover text-xs text-start m-2 " style={{'width':'250px'}}> jLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a>
                     <header class="footer-title">Company</header> 
                      

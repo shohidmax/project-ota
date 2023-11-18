@@ -1,28 +1,18 @@
 import React from 'react';
-import './Client.css';
-import Carousel from './Carousel'; 
+import './Client.css'; 
 
 const Clients = () => {
   
   
     return (
-<<<<<<< HEAD
-        <div className='bg-gray-400' style={{'background-color':'#04080F'}}>
-            <h1 className='text-xl py-6' style={{'color':'#005f57'}}>Testimonial</h1>
+        <div className='bg-gray-400 sm:h-auto' style={{'background-color':'#04080F'}}>
+            <h1 className='text-xl py-6' style={{'color':'#005f57'}}>Testimonial</h1> 
             <div>
-                <h1 className='text-5xl my-6 text-white' > What&apos;s Our Clients Says</h1>
+                <h1 className='text-3xl sm:text-6xl my-6 text-white' > What&apos;s Our Clients Says</h1>
             </div>
-            <div className='flex  justify-around banglof  h-96'>
-=======
-        <div className='bg-gray-400'>
-            <h1 className='text-2xl   ' style={{'color':'#005f57'}}>Testimonial</h1>
-            <div>
-                <h1 className='text-5xl my-6 text-white' >What’s Our Clients Says</h1>
-            </div>
-            <div className='flex  justify-around   h-96'>
->>>>>>> 7465c8dcee81ab34c9bfdb24d1cfb9b7d4243ef2
+            <div className='flex p-2  justify-around banglof sm:h-fit'>
                 <div className=''>
-                    <div class="card w-96  bg-base-100   shadow-2xl mt-12  image-full">
+                    <div class="card w-auto m-4   bg-base-100   shadow-2xl mt-12  image-full">
                         <figure> </figure>
                         <div class="card-body">
                             <div>
@@ -36,10 +26,10 @@ const Clients = () => {
                                     <p className='text-xs'>CEO , Nextgen</p>
                                     <div class="rating rating-xs">
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                     </div>
                             </div>
                             <div>
@@ -55,7 +45,7 @@ const Clients = () => {
                     </div> 
                 </div>
                 <div>
-                <div class="card w-96 bg-base-100 shadow-2xl  hoverbg image-full">
+                <div class="card w-auto m-4 bg-base-100 shadow-2xl  hoverbg image-full">
                         <figure> </figure>
                         <div class="card-body">
                             <div>
@@ -69,10 +59,10 @@ const Clients = () => {
                                     <p className='text-xs'>CEO , Nextgen</p>
                                     <div class="rating rating-xs">
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400"  />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                     </div>
                             </div>
                             <div>
@@ -82,7 +72,7 @@ const Clients = () => {
                             </svg>
 
                                 <p className='text-xs'>Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private</p>
-                                <div className='flex-end'>
+                                <div className='flex-end flex justify-end'>
                                 <svg className=' babago ' width="35" height="35" viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M34.6754 22.9498H46.4004C46.2004 34.6247 43.9004 36.5497 36.7254 40.7997C35.9004 41.2997 35.6254 42.3497 36.1254 43.1997C36.6004 44.0247 37.6754 44.2997 38.5004 43.7997C46.9504 38.7997 49.9004 35.7497 49.9004 21.2248V7.74983C49.9004 3.47483 46.4254 0.0248337 42.1754 0.0248337H34.6754C30.2754 0.0248337 26.9504 3.34983 26.9504 7.74983V15.2498C26.9504 19.6248 30.2754 22.9498 34.6754 22.9498Z" fill="#D9D9D9" fill-opacity="0.1"/>
                                 <path d="M7.7002 22.9498H19.4252C19.2252 34.6247 16.9252 36.5497 9.7502 40.7997C8.9252 41.2997 8.6502 42.3497 9.1502 43.1997C9.6502 44.0247 10.7002 44.2997 11.5502 43.7997C20.0002 38.7997 22.9502 35.7497 22.9502 21.1998V7.72483C22.9502 3.44983 19.4752 -0.000167847 15.2252 -0.000167847H7.7252C3.3252 -0.000167847 0.000196457 3.32483 0.000196457 7.72483V15.2248C-0.0248032 19.6248 3.3002 22.9498 7.7002 22.9498Z" fill="#D9D9D9" fill-opacity="0.1"/>
@@ -96,7 +86,7 @@ const Clients = () => {
                     </div> 
                 </div>
                 <div>
-                <div class="card w-96 bg-base-100 my-12 shadow-2xl image-full">
+                <div class="card w-auto m-4 bg-base-100 my-12 shadow-2xl image-full">
                         <figure> </figure>
                         <div class="card-body">
                             <div>
@@ -110,9 +100,10 @@ const Clients = () => {
                                     <p className='text-xs'>CEO , Nextgen</p>
                                     <div class="rating rating-xs">
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400"   />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
                                         <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                                       <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                                     </div>
                             </div>
                             <div>

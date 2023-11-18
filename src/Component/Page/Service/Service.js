@@ -3,15 +3,15 @@ import React from 'react';
 const Service = () => {
     return (
         <div> 
-            <div class="relative font-inter antialiased"> 
-            <div class="relative min-h-screen flex flex-col justify-center bg-slate-900 overflow-hidden" style={{ backgroundImage: `url(" ")`  }}>
+            <div class=" font-inter antialiased overflow-hidden"> 
+            <div class="  flex flex-col justify-center bg-slate-900 " style={{ backgroundImage: `url(" ")`  }}>
                 <div>
                     <div className='p-2 m-2'>
                         <h3 className='text-xl' style={{'color':'#005f57'}}>Serivces</h3>
                     </div>
                     <div className='flex flex-col'>
-                        <h1 className='text-bold text-5xl text-white'> We Provide User-friendly and <br/> Customized Services</h1> 
-                        <p className='text-xs w-7/12 text-center mx-auto p-1 m-1 text-white'> Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private</p>
+                        <h1 className='text-bold text-2xl sm:text-5xl text-white'> We Provide User-friendly and <br/> Customized Services</h1> 
+                        <p className='text-xs w-8/12 text-center mx-auto p-1 m-1 text-white'> Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private</p>
 
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const Service = () => {
                                 peer-checked/05:-translate-x-40 
                             ">
                                 <label class="absolute inset-0" for="article-01"><span class="sr-only">Focus on the big picture</span></label>
-                                <article class="bg-white p-6 rounded-lg shadow-2xl bg-cover bg-center  bg-auto bg-no-repeat" style={{ backgroundImage: `url("https://i.ibb.co/xX0TfBV/Rectangle-6.png")`  }}>
+                                <article class="bg-white p-6 rounded-lg shadow-2xl bg-cover bg-center    bg-no-repeat" style={{ backgroundImage: `url("https://i.ibb.co/xX0TfBV/Rectangle-6.png")`  }}>
                                 <header class="mb-2 p-2">
                                          
                                          <h1 class="text-xl font-bold text-slate-900 p-2 m-2"> </h1>
@@ -85,7 +85,7 @@ const Service = () => {
                                 peer-checked/05:opacity-0
                             ">
                                 <label class="absolute inset-0" for="article-02"><span class="sr-only">Focus on the big picture</span> </label>
-                                <article class="bg-white p-6 rounded-lg shadow-2xl bg-cover bg-center  bg-auto bg-no-repeat" style={{ backgroundImage: `url("https://i.ibb.co/4RsrCF1/Rectangle-6-1.png")`  }}>
+                                <article class="bg-white p-6 rounded-lg shadow-2xl bg-cover bg-center   bg-no-repeat" style={{ backgroundImage: `url("https://i.ibb.co/4RsrCF1/Rectangle-6-1.png")`  }}>
                                 <header class="mb-2 p-2">
                                          
                                          <h1 class="text-xl font-bold text-slate-900 p-2 m-2"> </h1>
@@ -125,7 +125,7 @@ const Service = () => {
                             " 
                             
                             > 
-                                <article class="bg-white p-6 rounded-lg shadow-2xl bg-cover bg-center  bg-auto bg-no-repeat" style={{ backgroundImage: `url("https://i.ibb.co/VSKXDYh/Rectangle-6.png")`  }}>
+                                <article class="bg-white p-6 rounded-lg shadow-2xl bg-cover bg-center    bg-no-repeat" style={{ backgroundImage: `url("https://i.ibb.co/VSKXDYh/Rectangle-6.png")`  }}>
                                     <header class="mb-2 p-2">
                                          
                                         <h1 class="text-xl font-bold text-slate-900 p-2 m-2"> </h1>
@@ -169,7 +169,7 @@ const Service = () => {
                                 peer-checked/05:z-40
                             ">
                                 <label class="absolute inset-0" for="article-04"><span class="sr-only">Focus on the big picture</span></label>
-                                <article class="bg-white p-6 rounded-lg shadow-2xl bg-cover bg-center  bg-auto bg-no-repeat" style={{ backgroundImage: `url("https://i.ibb.co/7RmGczg/Rectangle-6-2.png")`  }}>
+                                <article class="bg-white p-6 rounded-lg shadow-2xl bg-cover bg-center   bg-no-repeat" style={{ backgroundImage: `url("https://i.ibb.co/7RmGczg/Rectangle-6-2.png")`  }}>
                                 <header class="mb-2 p-2">
                                          
                                          <h1 class="text-xl font-bold text-slate-900 p-2 m-2"> </h1>
@@ -206,7 +206,7 @@ const Service = () => {
                                 peer-checked/05:[&>label]:pointer-events-none
                             ">
                                 <label class="absolute inset-0" for="article-05"><span class="sr-only">Focus on the big picture</span></label>
-                                <article  class="bg-white p-6 rounded-lg shadow-2xl bg-cover bg-center  bg-auto bg-no-repeat" style={{ backgroundImage: `url("https://i.ibb.co/qrZfDSY/Rectangle-6-2.png")`  }}>
+                                <article  class="bg-white p-6 rounded-lg shadow-2xl bg-cover bg-center    bg-no-repeat" style={{ backgroundImage: `url("https://i.ibb.co/qrZfDSY/Rectangle-6-2.png")`  }}>
                                 <header class="mb-2 p-2">
                                          
                                          <h1 class="text-xl font-bold text-slate-900 p-2 m-2"> </h1>
