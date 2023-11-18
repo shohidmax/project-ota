@@ -87,8 +87,8 @@
   
   .card-slider {
     background: #fff;
-    width: 406px;
-    height: 600px
+    width: 450px;
+    height: fit-content;
   }
   
   .ggt2{
